@@ -37,7 +37,7 @@ const App: React.FC = () => {
       <header>
         <div className="container">
           <div className="logo">
-            <img src="/src/public/CogniHacks-transparent.png" alt="CogniHacks Logo" />
+            <img src="/images/CogniHacks-transparent.png" alt="CogniHacks Logo" loading="lazy"/>
           </div>
           <h1 className='Banner'>CogniHacks 2025</h1>
         </div>
@@ -84,22 +84,22 @@ const App: React.FC = () => {
         <h2 className="section-title">The Tracks.</h2>
         <div className="benefits">
           <div className="benefit">
-          <img src="/src/public/1.png" alt="BCI Track Picture"/>
+          <img src="/images/1.png" alt="BCI Track Picture" loading="lazy" />
           <h3>BCI</h3>
           <p>Introduce/demonstrate general BCI data flow to attendees and provide resources for BCI powered projects</p>
           </div>
           <div className="benefit">
-          <img src="/src/public/2.png" alt="HCI Track Picture"/>
+          <img src="/images/2.png" alt="HCI Track Picture" loading="lazy"/>
             <h3>HCI</h3>
             <p>Coding projects aimed at enhancing the way humans use computers to solve tasks</p>
           </div>
           <div className="benefit">
-          <img src="/src/Public/3.png" alt="HCI (Concept) Track Picture"/>
+          <img src="/images/3.png" alt="HCI (Concept) Track Picture" loading="lazy"/>
             <h3>HCI (Concept)</h3>
             <p>Low to No Code projects presenting ideas for better interfaces humans can use for solving tasks</p>
           </div>
           <div className="benefit">
-          <img src="/src/Public/4.png" alt="AI Track Picture"/>
+          <img src="/images/4.png" alt="AI Track Picture" loading="lazy" />
             <h3>Agentic AI</h3>
             <p>AI track focused on developing AI powered Agents to help with automation and do other capabilites </p>
           </div>

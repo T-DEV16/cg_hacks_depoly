@@ -114,7 +114,7 @@
   .hero::before {
     content: "";
     position: absolute;
-    background: url('/src/Public/brain-transparent.png') no-repeat center center;
+    background: url('/src/public/brain-transparent.png') no-repeat center center;
     background-size: 40%; /* Adjust size as needed */
     opacity: 0.85; /* Adjust transparency */
     top: 0;

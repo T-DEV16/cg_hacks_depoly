@@ -37,7 +37,7 @@ const App: React.FC = () => {
       <header>
         <div className="container">
           <div className="logo">
-            <img src="/src/Public/CogniHacks-transparent.png" alt="CogniHacks Logo" />
+            <img src="/src/public/CogniHacks-transparent.png" alt="CogniHacks Logo" />
           </div>
           <h1 className='Banner'>CogniHacks 2025</h1>
         </div>
@@ -84,12 +84,12 @@ const App: React.FC = () => {
         <h2 className="section-title">The Tracks.</h2>
         <div className="benefits">
           <div className="benefit">
-          <img src="/src/Public/1.png" alt="BCI Track Picture"/>
+          <img src="/src/public/1.png" alt="BCI Track Picture"/>
           <h3>BCI</h3>
           <p>Introduce/demonstrate general BCI data flow to attendees and provide resources for BCI powered projects</p>
           </div>
           <div className="benefit">
-          <img src="/src/Public/2.png" alt="HCI Track Picture"/>
+          <img src="/src/public/2.png" alt="HCI Track Picture"/>
             <h3>HCI</h3>
             <p>Coding projects aimed at enhancing the way humans use computers to solve tasks</p>
           </div>

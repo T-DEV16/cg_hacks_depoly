@@ -102,12 +102,13 @@
   .hero {
     position: relative;
     padding: 50px 20px;
-    min-height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
+    margin-top: 150px;
   }
   /* .hero-background { */
 
@@ -115,7 +116,7 @@
     content: "";
     position: absolute;
     background: url('/images/brain-transparent.png') no-repeat center center;
-    background-size: 40%; /* Adjust size as needed */
+    background-size: 30%; /* Adjust size as needed */
     opacity: 0.85; /* Adjust transparency */
     top: 0;
     right: 0;

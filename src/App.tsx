@@ -60,7 +60,7 @@ const App: React.FC = () => {
               Join us as we bring BCIs to the mainstream and inspire impactful projects with AI.
             </p>
             <a
-              href="#contact"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeXrwM1zC_BduCt2r8XOQ074-ownydzKXhN4-q7PwY-DKBf2A/viewform?usp=previewf"
               className="cta-button"
             >
               Sign up for updates!
@@ -76,7 +76,7 @@ const App: React.FC = () => {
             August 30th - Pleasanton, CA
           </h3>
           <p>
-          Join our community of innovators at CogniHacks 2025, a student-led hackathon bringing together coders, creators, and neurotech enthusiasts to explore the future of Brain-Computer Interfaces (BCIs). While BCIs have traditionally been used in clinical research, our mission is to mainstream their recreational and creative potential in the computer science world. By combining AI and HCI, we aim to inspire participants to build impactful, human-centered projects that push the boundaries of how we interact with technology.
+          Join our community of innovators at CogniHacks 2025, a student-led hackathon bringing together coders, creators, and neurotech enthusiasts to explore the future of Brain-Computer Interfaces (BCIs). While BCIs have traditionally been used in clinical research, our mission is to mainstream their recreational and creative potential in the computer science world. By combining AI and HCI, our hackathon will inspire participants to build impactful, human-centered projects that push the boundaries of how we interact with technology.
           </p>
         </div>
       </section>
@@ -86,22 +86,22 @@ const App: React.FC = () => {
           <div className="benefit">
           <img src="/images/1.png" alt="BCI Track Picture" loading="lazy" />
           <h3>BCI</h3>
-          <p>Introduce/demonstrate general BCI data flow to attendees and provide resources for BCI powered projects</p>
+          <p>Introduce/demonstrate Brain Computer Interfaces and its general data flow to attendees and provide resources for BCI powered projects</p>
           </div>
           <div className="benefit">
           <img src="/images/2.png" alt="HCI Track Picture" loading="lazy"/>
-            <h3>HCI</h3>
-            <p>Coding projects aimed at enhancing the way humans use computers to solve tasks</p>
+            <h3>HCI (Coded Projects)</h3>
+            <p>Projects built via code aimed to enhance the way humans use computers/interfaces to solve tasks</p>
           </div>
           <div className="benefit">
           <img src="/images/3.png" alt="HCI (Concept) Track Picture" loading="lazy"/>
-            <h3>HCI (Concept)</h3>
-            <p>Low to No Code projects presenting ideas for better interfaces humans can use for solving tasks</p>
+            <h3>HCI (No Code Projects)</h3>
+            <p>Idea based projects that present better interfaces humans can use for solving tasks</p>
           </div>
           <div className="benefit">
           <img src="/images/4.png" alt="AI Track Picture" loading="lazy" />
-            <h3>Agentic AI</h3>
-            <p>AI track focused on developing AI powered Agents to help with automation and do other capabilites </p>
+            <h3>Agentic/Gen AI</h3>
+            <p>AI track focused on developing AI powered Agents/LLMs to make this hot field even hotter!</p>
           </div>
         </div>
       </section>
@@ -112,7 +112,7 @@ const App: React.FC = () => {
         <div className="sponsorship-levels">
           <div className="sponsor-card">
             <h3>Startup</h3>
-            <p>Investment: $250</p>
+            <p>Investment: $350</p>
             <ul>
               <li>Company Banner &amp; Logo on Shirts</li>
               <li>Logo on Website and Presentations</li>
@@ -131,7 +131,7 @@ const App: React.FC = () => {
           </div>
           <div className="sponsor-card">
             <h3>Diamond</h3>
-            <p>Investment: $1,000 - $3,000</p>
+            <p>Investment: $800 - $1,200</p>
             <ul>
               <li>All Gold Benefits</li>
               <li>Featured Mini Event or Talk/Workshop</li>
@@ -161,17 +161,17 @@ const App: React.FC = () => {
           <div className="sponsor-card">
             <h3>Who can participate in CogniHacks?</h3>
             <p>Anyone. High schoolers, Neurotech enthusiasts, College students, anyone who wants to 
-              learn more about BCI’s HCI, and their involvement with AI
+              learn more about BCIs, HCI, and their involvement with AI
             </p>
           </div>
           <div className="sponsor-card">
             <h3>Do I need to have coding experience to join?</h3>
-            <p>No prior coding experience is required
+            <p>No prior coding experience is required. We have a no code HCI track but even if you want to join a coding track you can join a team in these tracks, and we can help you find a team!
             </p>
           </div>
           <div className="sponsor-card">
             <h3>What should I bring to the hackathon?</h3>
-            <p>Participants should bring laptop, charger, Emotiv's software (We will provide a link on how to get that). We have free food and drinks!
+            <p>Participants should bring laptop, charger, Emotiv's software (We will provide a instructions on how to install their software). We have free food and drinks!
             </p>
           </div>
           <div className="sponsor-card">
@@ -181,21 +181,21 @@ const App: React.FC = () => {
           </div>
           <div className="sponsor-card">
             <h3>What is a BCI?</h3>
-            <p>A Brain-Computer Interface (BCI) is a technology that enables direct communication between the brain and a computer. Using sensors to detect brain signals, 
+            <p>A Brain-Computer Interface (BCI) is a device that enables direct communication between your brain and a computer. Using sensors to detect brain signals, 
               BCIs allow users to control digital devices with their thoughts — no physical movement required. They're used in areas like neurorehabilitation, gaming, and now, 
               creative coding projects like those at CogniHacks!
             </p>
           </div>
           <div className="sponsor-card">
             <h3>Do I need to bring a BCI? </h3>
-            <p>Nope! You don’t need to bring your own BCI to participate. We’ll have a limited number of BCI devices available on-site for teams to use during the hackathon. If you do have your own device (like a NextMind or Emotiv headset), 
+            <p>Nope! You don’t need to bring your own BCI to participate. We’ll have a limited number of BCI devices available on-site for teams to use during the hackathon. If you do have your own device (like a NextMind, OpenBCI, or Emotiv headset), 
               feel free to bring it — but it’s not required to join the fun or build something awesome!
             </p>
           </div>
           <div className="sponsor-card">
             <h3>What is HCI?</h3>
-            <p>Human-Computer Interaction (HCI) is the study and design of how people interact with computers and technology. It focuses on creating intuitive, efficient, and user-friendly interfaces — 
-              from apps and websites to emerging tech like VR and BCIs. At CogniHacks, HCI plays a key role in making brain-powered tools more accessible, engaging, and impactful.
+            <p>Human-Computer Interaction (HCI) is the study and design of how people can better interact with computers and technology. It focuses on creating intuitive, efficient, and user-friendly interfaces — 
+              from apps and websites to emerging tech like VR and BCIs. At CogniHacks, HCI plays a key role in making novel interfaces like BCIs more accessible, engaging, and impactful.
             </p>
           </div>
         </div>

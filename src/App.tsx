@@ -71,7 +71,7 @@ const App: React.FC = () => {
       {/* Why CogniHacks Section */}
       <section className="eventInfo">
         <div className="container">
-          <h2 className="section-title">CogniHacks Is Coming.</h2>
+          <h2 className="section-title">CogniHacks Is Coming</h2>
           <h3>
             August 30th - Pleasanton, CA
           </h3>
@@ -81,7 +81,7 @@ const App: React.FC = () => {
         </div>
       </section>
       <section id="tracks" className="container">
-        <h2 className="section-title">The Tracks.</h2>
+        <h2 className="section-title">The Tracks</h2>
         <div className="benefits">
           <div className="benefit">
           <img src="/images/1.png" alt="BCI Track Picture" loading="lazy" />

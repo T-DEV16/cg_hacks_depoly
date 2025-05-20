@@ -44,7 +44,7 @@ const App: React.FC = () => {
         <div className='container-right'>
               <nav>
                 <ul>
-                  <li><a href="#tracks">Competitions</a></li>
+                  <li><a href="#tracks">Tracks</a></li>
                   <li><a href="#sponsorship">Sponsorship</a></li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>

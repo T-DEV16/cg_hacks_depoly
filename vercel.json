@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/join",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSeXrwM1zC_BduCt2r8XOQ074-ownydzKXhN4-q7PwY-DKBf2A/viewform",
+        "permanent": false
+      }
+    ]
+  }

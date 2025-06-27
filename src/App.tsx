@@ -96,7 +96,7 @@ const App: React.FC = () => {
           <div className="benefit">
           <img src="/images/2.png" alt="HCI (Concept) Track Picture" loading="lazy"/>
             <h3>HCI (Human Computer Interaction)</h3>
-            <p>Idea based projects that present better interfaces humans can use to solve tasks in the field of Human Computer Interaction</p>
+            <p>Idea based projects that present better interfaces humans can use to solve their tasks</p>
           </div>
         </div>
       </section>

@@ -85,23 +85,18 @@ const App: React.FC = () => {
         <div className="benefits">
           <div className="benefit">
           <img src="/images/1.png" alt="BCI Track Picture" loading="lazy" />
-          <h3>BCI</h3>
+          <h3>BCI (Brain Computer Interfaces)</h3>
           <p>Introduce/demonstrate Brain Computer Interfaces and its general data flow to attendees and provide resources for BCI powered projects</p>
           </div>
           <div className="benefit">
-          <img src="/images/2.png" alt="HCI Track Picture" loading="lazy"/>
-            <h3>HCI (Coded Projects)</h3>
-            <p>Projects built via code aimed to enhance the way humans use computers/interfaces to solve tasks</p>
-          </div>
-          <div className="benefit">
-          <img src="/images/3.png" alt="HCI (Concept) Track Picture" loading="lazy"/>
-            <h3>HCI (No Code Projects)</h3>
-            <p>Idea based projects that present better interfaces humans can use for solving tasks</p>
-          </div>
-          <div className="benefit">
           <img src="/images/4.png" alt="AI Track Picture" loading="lazy" />
-            <h3>Agentic/Gen AI</h3>
-            <p>AI track focused on developing AI powered Agents/LLMs to make this hot field even hotter!</p>
+            <h3>GenAI4Humans</h3>
+            <p>Track focused on developing GenAI powered Agents/LLMs to make people's lives easiers wether it be through improved interfaces or personal life upgrades</p>
+          </div>
+          <div className="benefit">
+          <img src="/images/2.png" alt="HCI (Concept) Track Picture" loading="lazy"/>
+            <h3>HCI (Human Computer Interaction)</h3>
+            <p>Idea based projects that present better interfaces humans can use to solve tasks in the field of Human Computer Interaction</p>
           </div>
         </div>
       </section>

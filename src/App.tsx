@@ -141,6 +141,36 @@ const App: React.FC = () => {
         </p>
       </section>
 
+      <section id="sponsors" className="container">
+  <h2 className="section-title">Our Sponsors</h2>
+  <div className="benefits">
+    <div className="sponsor-card">
+      <img src="/images/Zoho.png" alt="BCI Track Picture" loading="lazy" />
+      <h3>
+        <a href="https://www.zoho.com/" target="_blank" rel="noopener noreferrer">Zoho</a>
+      </h3>
+    </div>
+    <div className="sponsor-card">
+      <img src="/images/Emotiv.png" alt="AI Track Picture" loading="lazy" />
+      <h3>
+        <a href="https://www.emotiv.com/" target="_blank" rel="noopener noreferrer">Emotiv</a>
+      </h3>
+    </div>
+    <div className="sponsor-card">
+      <img src="/images/Nirmaan.png" alt="HCI Track Picture" loading="lazy"/>
+      <h3>
+        <a href="https://nirmaan.org/" target="_blank" rel="noopener noreferrer">Nirmaan</a>
+      </h3>
+    </div>
+    <div className="sponsor-card">
+      <img src="/images/Motif.png" alt="HCI Track Picture" loading="lazy"/>
+      <h3>
+        <a href="https://www.motifneuro.tech/" target="_blank" rel="noopener noreferrer">Motif</a>
+      </h3>
+    </div>
+  </div>
+</section>
+
             {/* Frequently Asked Questions */}
             <section id="sponsorship" className="container">
         <h2 className="section-title">Frequently Asked Questions</h2>

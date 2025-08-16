@@ -71,9 +71,9 @@ const App: React.FC = () => {
       {/* Why CogniHacks Section */}
       <section className="eventInfo">
         <div className="container">
-          <h2 className="section-title">CogniHacks Is Coming</h2>
+          <h2 className="section-title">CogniHacks Is Coming at Zoho CRM (7:30 AM to 8 PM)</h2>
           <h3>
-            August 30th - Pleasanton, CA
+            August 30th - 4141 Hacienda Dr, Pleasanton, CA 94588
           </h3>
           <p>
           Join our community of innovators at CogniHacks 2025, a student-led hackathon bringing together coders, creators, and neurotech enthusiasts to explore the future of Brain-Computer Interfaces (BCIs). While BCIs have traditionally been used in clinical research, our mission is to mainstream their recreational and creative potential in the computer science world. By combining AI and HCI, our hackathon will inspire participants to build impactful, human-centered projects that push the boundaries of how we interact with technology.
@@ -185,8 +185,8 @@ const App: React.FC = () => {
           </div>
           <div className="sponsor-card">
             <h3>Who can participate in CogniHacks?</h3>
-            <p>Anyone. High schoolers, Neurotech enthusiasts, College students, anyone who wants to 
-              learn more about BCIs, HCI, and their involvement with AI
+            <p>Anyone. High schoolers, Neurotech enthusiasts, College students, people who wants to 
+              learn more about BCIs, HCI, and their involvement with GenAI
             </p>
           </div>
           <div className="sponsor-card">
@@ -196,7 +196,7 @@ const App: React.FC = () => {
           </div>
           <div className="sponsor-card">
             <h3>What should I bring to the hackathon?</h3>
-            <p>Participants should bring laptop, charger, Emotiv's software (We will provide a instructions on how to install their software). We have free food and drinks!
+            <p>Participants should bring laptop, charger, Emotiv's software if participating in the BCI Track (We will provide a instructions on how to install their software). We have free food and drinks!
             </p>
           </div>
           <div className="sponsor-card">
@@ -208,14 +208,17 @@ const App: React.FC = () => {
             <h3>What is a BCI?</h3>
             <p>A Brain-Computer Interface (BCI) is a device that enables direct communication between your brain and a computer. Using sensors to detect brain signals, 
               BCIs allow users to control digital devices with their thoughts — no physical movement required. They're used in areas like neurorehabilitation, gaming, and now, 
-              creative coding projects like those at CogniHacks!
+              creative coding projects like those at CogniHacks!         
+                <a href="https://www.youtube.com/watch?v=7ExYVjAROq0&list=PLnNov8ZQm7hJKPdE4Azqm_7B7PudMxRHg&index=18" target="blank" rel="noopener noreferrer"> More explanation here</a>
             </p>
           </div>
           <div className="sponsor-card">
             <h3>Do I need to bring a BCI? </h3>
-            <p>Nope! You don’t need to bring your own BCI to participate. We’ll have a limited number of BCI devices available on-site for teams to use during the hackathon. If you do have your own device (like a NextMind, OpenBCI, or Emotiv headset), 
-              feel free to bring it — but it’s not required to join the fun or build something awesome!
-            </p>
+            <p>
+            A Brain-Computer Interface (BCI) is a device that enables direct communication between your brain and a computer. 
+            Using sensors to detect brain signals, BCIs allow users to control digital devices with their thoughts — no physical movement required. 
+            They're used in areas like neurorehabilitation, gaming, and now, creative coding projects like those at CogniHacks!
+          </p>
           </div>
           <div className="sponsor-card">
             <h3>What is HCI?</h3>
@@ -244,22 +247,68 @@ const App: React.FC = () => {
           <div className="sponsorship-levels">
           <div className="sponsor-card">
             <h3>Times</h3>
-            <ul>
-            <li><strong>Coming Soon!</strong><br /></li>
-              {/* <li><strong>8:30 AM</strong> — Check-in & Breakfast<br /><em>Registration desk open, coffee & snacks</em></li>
-              <li><strong>9:00 AM</strong> — Opening Ceremony<br /><em>Welcome, theme reveal, sponsor intros</em></li>
-              <li><strong>9:30 AM</strong> — Team Formation & Ideation Begins<br /><em>Icebreakers if needed for team creation</em></li>
-              <li><strong>10:00 AM</strong> — Hacking Begins<br /><em>Mentors available for guidance</em></li>
-              <li><strong>12:30 PM</strong> — Lunch Break<br /><em>Encourage casual networking</em></li>
-              <li><strong>1:00 PM</strong> — Optional Workshops / Tech Talks<br /><em>Parallel with hacking, 30–45 min</em></li>
-              <li><strong>3:30 PM</strong> — Midpoint Check-in / Optional Demos<br /><em>Brief status update from teams</em></li>
-              <li><strong>4:00 PM</strong> — Continue Hacking<br /><em>Push toward MVP</em></li>
-              <li><strong>6:30 PM</strong> — Hacking Ends – Code Freeze<br /><em>Finalize demos & prepare pitch</em></li>
-              <li><strong>6:45 PM</strong> — Dinner + Demo Setup<br /><em>Light dinner/snacks</em></li>
-              <li><strong>7:15 PM</strong> — Project Demos & Presentations<br /><em>3–5 mins per team</em></li>
-              <li><strong>8:15 PM</strong> — Judging + Audience Voting<br /><em>Judges deliberate, attendees vote</em></li>
-              <li><strong>8:45 PM</strong> — Awards & Closing Ceremony<br /><em>Prizes, photos, shout-outs</em></li>
-              <li><strong>9:00 PM</strong> — Event Wrap-Up + Socializing / Networking<br /><em>Chill vibes, music, casual chats</em></li> */}
+            <ul className="schedule-container">
+              <li>
+                <strong className="schedule-time">7:30 AM</strong>
+                <span className="schedule-title"> — Check-in & Breakfast</span>
+                <br />
+                <em>Registration desk open, coffee & snacks, Find/Finalize Groups</em>
+              </li>
+              <li>
+                <strong className="schedule-time">8:30 AM</strong>
+                <span className="schedule-title"> — Opening Ceremony</span>
+                <br />
+                <em>Introducing Sponsors, Schedule, Keynote Speaker</em>
+              </li>
+              <li>
+                <strong className="schedule-time">9:15 AM</strong>
+                <span className="schedule-title"> — Learning Track</span>
+                <br />
+                <em>Demonstrate and enable attendees to learn coding fundamentals pertaining to the field via a Learning Track Project</em>
+              </li>
+              <li>
+                <strong className="schedule-time">10:30 AM</strong>
+                <span className="schedule-title"> — Start Hacking</span>
+                <br />
+                <em>Begin working on projects</em>
+              </li>
+              <li>
+                <strong className="schedule-time">12:30 PM</strong>
+                <span className="schedule-title"> — Lunch Break</span>
+                <br />
+                <em>Get food after initial projects launch and also network with others</em>
+              </li>
+              <li>
+                <strong className="schedule-time">1:30 PM</strong>
+                <span className="schedule-title"> — Optional Product Demos</span>
+                <br />
+                <em>Demos are optional and will run parallel with hacking, 30 min</em>
+              </li>
+              <li>
+                <strong className="schedule-time">2:00 PM</strong>
+                <span className="schedule-title"> — Hack</span>
+                <br />
+                <em>Continue working on projects</em>
+              </li>
+  
+              <li>
+                <strong className="schedule-time">6:45 PM</strong>
+                <span className="schedule-title"> — Judges Deliberate</span>
+                <br />
+                <em>Light dinner/snacks while judges go from project to project and deliberate. 3–5 min per team</em>
+              </li>
+              <li>
+                <strong className="schedule-time">7:45 PM</strong>
+                <span className="schedule-title"> — Awards & Closing Ceremony</span>
+                <br />
+                <em>Announce winners and close</em>
+              </li>
+              <li>
+                <strong className="schedule-time">8:00 PM</strong>
+                <span className="schedule-title"> — Wrap Up</span>
+                <br />
+                <em>Event concludes</em>
+              </li>
             </ul>
           </div>
         </div>

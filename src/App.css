@@ -236,6 +236,13 @@
     cursor: pointer;
     pointer-events: auto;
   }
+
+  .sponsor-card p a {
+    color: #617eff;        /* different color so it contrasts with the title link */
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
   
   .sponsor-card {
     background: rgba(255, 255, 255, 0.1);
@@ -245,3 +252,20 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
+
+  .schedule-time {
+    font-size: 2rem;   /* biggest */
+    font-weight: bold;
+    color: #61B6FF;
+  }
+  
+  .schedule-title {
+    font-size: 1.4rem; /* slightly smaller than time */
+    font-weight: 600;
+    color: #61B6FF;
+  }
+  
+  .schedule-container em {
+    font-size: 1rem;   /* smallest for description */
+  }
+  

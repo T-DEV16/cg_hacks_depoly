@@ -238,7 +238,7 @@ const App: React.FC = () => {
         <h2 className="section-title">Schedule</h2>
         <div className="sponsorship-levels">
           <div className="sponsor-card">
-            <h3>Important Note</h3>
+            <h3 style={{ fontSize: '2rem' }}>Important Note</h3>
             <p>During the hackathon, all updates, announcements, and essential resources will be posted on our live page. 
               Whether it's schedule changes, API keys, 
               important links, or project submission details, everything you need will be there.</p>
@@ -246,7 +246,7 @@ const App: React.FC = () => {
           </div>
           <div className="sponsorship-levels">
           <div className="sponsor-card">
-            <h3>Times</h3>
+            <h3 style={{ fontSize: '2rem' }}>Times</h3>
             <ul className="schedule-container">
               <li>
                 <strong className="schedule-time">7:30 AM</strong>

@@ -60,7 +60,7 @@ const App: React.FC = () => {
               Join us as we bring BCIs to the mainstream and inspire impactful projects with AI.
             </p>
             <a
-              href="https://form.jotform.com/251738591254059"
+              href="https://form.jotform.com/252320960274150"
               className="cta-button"
             >
               Register Now!
